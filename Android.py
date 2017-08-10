@@ -15,8 +15,8 @@ class Android(unittest.TestCase):
         self.dc['reportFormat'] = self.reportFormat
         self.dc['testName'] = self.testName
         self.dc['platformName'] = 'Android'
-        self.dc['appPackage'] = "com.experitest.ExperiBank"
-        self.dc['appActivity'] = ".LoginActivity"
+        self.dc['appPackage'] = "<APP_PACKAGE>"
+        self.dc['appActivity'] = "<APP_ACTIVITY>"
 
         self.driver = NewDriver('http://localhost:4722/wd/hub', self.dc)
 

@@ -15,7 +15,7 @@ class IOS(unittest.TestCase):
         self.dc['reportFormat'] = self.reportFormat
         self.dc['testName'] = self.testName
         self.dc['platformName'] = 'ios'
-        self.dc['bundleId'] = "com.experitest.ExperiBank"
+        self.dc['bundleId'] = "<BUNDLE_ID>"
         self.driver = NewDriver('http://localhost:4722/wd/hub', self.dc)
 
     def test_login(self):
